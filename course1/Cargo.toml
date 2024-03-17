@@ -1,0 +1,11 @@
+[package]
+name = "course1"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+nalgebra = { workspace = true, features = ["rand"] }
+anyhow = { workspace = true }
+clap =  { workspace = true }
+rayon = { workspace = true }
+
